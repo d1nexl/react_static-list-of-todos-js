@@ -1,5 +1,7 @@
 /* eslint-disable */
 
+import { UserInfo } from '../UserInfo/UserInfo';
+
 export const TodoInfo = ({ todo }) => (
   <article
     className={`TodoInfo ${todo.completed ? 'TodoInfo--completed' : ''}`}
